@@ -2,11 +2,11 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/api/')
 def index():
     return 'INDEX'
 
-@app.route('/predict-price')
+@app.route('/api/predict-price')
 def predict_price():
     return 'TEST'
 

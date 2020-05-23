@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+label {
+  display: inline-block;
+  width: 128px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  width: 256px;
+}
+
+form {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 32px;
+  width: 512px;
+  text-align: center;
+  margin: auto;
+}
