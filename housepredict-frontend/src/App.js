@@ -38,6 +38,7 @@ class App extends React.Component
     // Parameters to be sent to the server.
     const params = {
       crim: f['crim'].value,
+      zn: f['zn'].value,
       indus: f['indus'].value,
       chas: f['chas'].value,
       nox: f['nox'].value,
